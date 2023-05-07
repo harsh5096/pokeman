@@ -1,0 +1,17 @@
+.pokemon-card {
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+
+@media screen and (max-width: 589px) {
+.pokemon-card h1{
+    font-size: 18px;
+}
+.pokemon-card h2{
+    font-size: 15px;
+}
+}
